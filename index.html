@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jsM/script.js"></script>
+    <link rel="stylesheet" href="./CSSm/style.css"></link>
+    <title>Nadadores - Ordem de Chegada</title>
+</head>
+<body class="body">
+    <div class="topo">
+        <h1>Informe os tempos dos nadadores:</h1>
+        <label for="t1">Tempo Nadador 1:</label>
+        <input class="N1" type="number" id="t1"><br>
+        <label for="t2">Tempo Nadador 2:</label>
+        <input class="N2" type="number" id="t2"><br>
+        <label for="t3">Tempo Nadador 3:</label>
+        <input class="N3" type="number" id="t3"><br><br>
+
+        <div class="button">
+            <button class="botao" onclick="mostrarResultados()">Ver Resultado</button>
+        </div>
+
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
