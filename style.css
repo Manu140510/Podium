@@ -31,4 +31,12 @@ body{
 
 .botao:hover{
     background-color: darkblue;
+
+}
+
+.voltar{
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
 }
